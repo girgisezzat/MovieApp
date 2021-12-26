@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider(
-          //MovieApp
+          //MovieAppMain
           create: (BuildContext context) => MoviesCubit()
             ..getPopularMovies(1)
             ..getTopRatedMovies(1)
